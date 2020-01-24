@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    
+}
+
+.blackbox{
+    background-color: black;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding: 70px;
+    
+}
+
+.moreknow{
+    color: yellow;
+    font-size: 75px;
+    display: inline-block
+    
+}
+
+.aquaboxs{
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.aqua{
+    background-color: aqua;
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
+.orangeboxs{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.orange{
+    height: 250px;
+    width: 40%;
+    background-color: orange;
+    margin: 50px;
+}
+
+.textimage{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.text{
+    width: 30%;
+    height: 200px;
+    
+
+}
+
+.image{
+    width: 30%;
+    height: 200px;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg);
+
+}
